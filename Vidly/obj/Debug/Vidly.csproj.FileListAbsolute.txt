@@ -195,3 +195,13 @@ C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangeId
 C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangeIdentityManagerPasswordToRequireLetters.resources
 C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToIdentityModel.resources
+C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneNumberToUsersRegistration.resources
+C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\bin\Glimpse.Ado.dll
+C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\bin\Glimpse.AspNet.dll
+C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\bin\Glimpse.Core.dll
+C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\bin\Glimpse.EF6.dll
+C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\bin\Glimpse.Mvc5.dll
+C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddRentalTable.resources
+C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddAvailabilityPropertyToMovieModel.resources
+C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetAvailabilityToNumberInStock.resources
+C:\Users\1\Desktop\Projects 2017\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetAvailabilityToNumberInStock1.resources

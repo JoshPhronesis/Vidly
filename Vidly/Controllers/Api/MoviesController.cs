@@ -11,6 +11,7 @@ using System.Data.Entity;
 
 namespace Vidly.Controllers.Api
 {
+    [Authorize(Roles = RoleName.CanManageMovies)]
     public class MoviesController : ApiController
     {
         private ApplicationDbContext _context;
@@ -19,11 +20,15 @@ namespace Vidly.Controllers.Api
             _context = new ApplicationDbContext();
         }
         //GET/ api/movies
-        public IEnumerable<MovieDto> GetMovies()
+        public IHttpActionResult GetMovies(string query = null)
         {
-            return _context.Movies.Include(m=>m.Genre)
-                                  .ToList()
-                                  .Select(Mapper.Map<Movie, MovieDto>);
+            var moviesQuery = _context.Movies.Include(m => m.Genre).Where(m => m.Availability > 0);
+            if (!string.IsNullOrWhiteSpace(query))
+            {
+                moviesQuery = moviesQuery.Where(c => c.Name.Contains(query));
+            } 
+            var moviesDtos = moviesQuery.ToList().Select(Mapper.Map<Movie, MovieDto>);
+            return Ok( moviesDtos);
         }
         //GET/ api/movies/1
         public IHttpActionResult GetMovie (int id)

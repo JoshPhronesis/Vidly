@@ -26,6 +26,6 @@ namespace Vidly.Models
 
         [Display(Name="Genres")]
         public int GenreId { get; set; }
-
+        public int Availability{ get; set; }
     }
 }
