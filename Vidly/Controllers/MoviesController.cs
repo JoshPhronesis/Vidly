@@ -9,6 +9,7 @@ using Vidly.ViewModels;
 
 namespace Vidly.Controllers
 {
+    [Authorize]
     public class MoviesController : Controller
     {
         // GET: Movie/Random
